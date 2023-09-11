@@ -5,7 +5,7 @@ from django.http import HttpResponse
 
 def vista1(request):
     html="""
-    <h1 style='color:blue'>Bienvenido!</h1>
+    <h1 style='color:blue'>Bienvenido! vista 1 de la app1</h1>
     <a href="/vista2">Ver vista 2</a>
     
     """
